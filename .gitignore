@@ -1,0 +1,69 @@
+# IntelliJ IDEA-specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Gradle and Maven build output
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+/.gradle/
+/target/
+
+# Logs and OS-specific files
+/logs/
+/*.log
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Java dependencies
+/lib/
+/out/
+/bin/
+/*.class
+
+# JetBrains IDE Shared Indexes
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/sonarlint
+
+# Lint, coverage, and testing
+/reports/
+/coverage/
+/test-results/
+/.idea/modules.xml
+
+# Ignore node_modules if using frontend
+node_modules/
+
+# Ignore environment variables
+.env
+.env.local
+.env.*.local
+
+# Ignore generated files
+*.war
+*.jar
+*.ear
+*.zip
+*.tar.gz
+*.tar
+
+# Ignore Kafka log directories (if using Kafka locally)
+.kafka-logs/
+zookeeper/
+
+# Ignore IntelliJ HTTP Requests
+.idea/httpRequests/
+
+# Ignore local databases (H2, SQLite, etc.)
+*.db
+*.sqlite
+
+# Ignore MacOS Finder settings
+._*
